@@ -23,7 +23,7 @@ namespace NReplayGain
             int[] sourceAccum = trackGain.gainData.Accum;
             for (int i = 0; i < sourceAccum.Length; ++i)
             {
-                this.albumData.Accum[i] = sourceAccum[i];
+                this.albumData.Accum[i] += sourceAccum[i];
             }
             this.albumData.PeakSample = Math.Max(this.albumData.PeakSample, trackGain.gainData.PeakSample);
         }
