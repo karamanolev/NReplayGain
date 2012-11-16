@@ -6,7 +6,7 @@ namespace NReplayGain
     /// <summary>
     /// Contains ReplayGain data for a track.
     /// </summary>
-    public class TrackGain
+    public class TrackGain : IDisposable
     {
         private int sampleSize;
         internal GainData gainData;
@@ -308,6 +308,26 @@ namespace NReplayGain
         public double GetPeak()
         {
             return this.gainData.PeakSample / ReplayGain.MAX_SAMPLE_VALUE;
+        }
+
+        /// <summary>
+        /// Disposes the resources used to calculate ReplayGain, but doesn't clear the result of the analysis.
+        /// </summary>
+        public void Dispose()
+        {
+            this.lInPreBuf = null;
+            this.lStepBuf = null;
+            this.lOutBuf = null;
+            this.rInPreBuf = null;
+            this.rStepBuf = null;
+            this.rOutBuf = null;
+
+            this.lInPre = new CPtr<double>();
+            this.lStep = new CPtr<double>();
+            this.lOut = new CPtr<double>();
+            this.rInPre = new CPtr<double>();
+            this.rStep = new CPtr<double>();
+            this.rOut = new CPtr<double>();
         }
     }
 }
