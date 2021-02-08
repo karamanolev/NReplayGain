@@ -2,13 +2,22 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard1.0;netstandard2.0</TargetFrameworks>
-    <Company />
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <RepositoryUrl></RepositoryUrl>
-    <PackageLicenseUrl></PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/karamanolev/NReplayGain</PackageProjectUrl>
-    <PackageIconUrl></PackageIconUrl>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Title>NReplayGain</Title>
+    <Authors>David Robinson, Glen Sawyer, Frank Klemm, Marcel Müller, Ivailo Karamanolev, Kyle McClellan</Authors>
+    <PackageLicenseExpression>LGPL-2.1-only</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/kmcclellan/NReplayGain</PackageProjectUrl>
     <Description>A ReplayGain implementation in C# .NET</Description>
+    <PackageReleaseNotes>https://github.com/kmcclellan/NReplayGain/releases/v$(Version)</PackageReleaseNotes>
+    <Copyright>%A9 2021 Kyle McClellan</Copyright>
+    <PackageTags>audio;loudness;normalization;replaygain</PackageTags>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/kmcclellan/NReplayGain.git</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
