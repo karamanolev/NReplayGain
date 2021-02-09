@@ -13,7 +13,6 @@
     <PackageLicenseExpression>LGPL-2.1-only</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/karamanolev/NReplayGain</PackageProjectUrl>
     <Description>A ReplayGain implementation in C# .NET</Description>
-    <Copyright>%A9 2021 Kyle McClellan</Copyright>
     <PackageTags>audio;loudness;normalization;replaygain</PackageTags>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/karamanolev/NReplayGain.git</RepositoryUrl>
