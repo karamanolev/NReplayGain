@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NReplayGain", "NReplayGain\NReplayGain.csproj", "{DB09D113-3656-4099-AE63-41A07E2E61D1}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NReplayGain", "NReplayGain\NReplayGain.csproj", "{3C603326-9D82-41BD-B1AF-567F651F577C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,12 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DB09D113-3656-4099-AE63-41A07E2E61D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DB09D113-3656-4099-AE63-41A07E2E61D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DB09D113-3656-4099-AE63-41A07E2E61D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DB09D113-3656-4099-AE63-41A07E2E61D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C603326-9D82-41BD-B1AF-567F651F577C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C603326-9D82-41BD-B1AF-567F651F577C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C603326-9D82-41BD-B1AF-567F651F577C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C603326-9D82-41BD-B1AF-567F651F577C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9EF73EE7-9D29-4DFB-B9CB-C5C2E1D6B86F}
 	EndGlobalSection
 EndGlobal
